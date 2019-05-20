@@ -1,3 +1,3 @@
-FROM bitnami/minideb:jessie
+FROM ubuntu:bionic
 
-RUN apt-get update && apt-get install -y dnsutils
+RUN apt-get update && apt-get install -y dnsutils curl netcat
